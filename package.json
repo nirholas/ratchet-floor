@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A price floor that only ever moves up.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/nirholas/ratchet-floor.git"
