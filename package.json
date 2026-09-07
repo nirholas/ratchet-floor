@@ -1,0 +1,29 @@
+{
+  "name": "ratchet-floor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A price floor that only ever moves up.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/ratchet-floor.git"
+  },
+  "homepage": "https://ratchet-floor.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "price-floor",
+    "launch",
+    "no-admin",
+    "oracle-free"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
